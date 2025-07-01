@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+D:\NIT problems\java problem\ConstructorDay-3_SetterAndGetter_13-11\.metadata\.plugins\org.eclipse.jdt.core
+3413270776.index
+3023950448.index
+1865797976.index

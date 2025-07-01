@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test1</title>
+    <style>
+        body {
+            font-family: cursive;
+            font-weight: bold;
+        }
+
+        .main {
+            border: 1px solid red;
+            border-radius: 5px;
+        }
+
+        header {
+            height: 5vh;
+        }
+
+        .header{
+            color: red;
+        }
+        .row0{
+            border: 1px solid red;
+            height: 88vh;
+        }
+
+        .row1 {
+            display: flex;
+            border: 1px solid black;
+        }
+
+        .col1 {
+            height: 50px;
+            width: 100px;
+            margin: 5px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        .row2 {
+    
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+            
+        }
+
+        .col2 {
+            height: 200px;
+            margin: 5px;
+            border: 1px solid black;
+            border-radius: 5px;
+            flex-direction: column
+        }
+
+        footer{
+            height: 5vh;
+            text-align: center;
+        }
+
+        .foot{
+            height: 5vh;
+            color: red;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <span class="header">Header</span>
+        </header>
+        <div class="row0">
+            <div class="row1">
+                <div class="col1"><span></span></div>
+                <div class="col1"></div>
+                <div class="col1"></div>
+                <div class="col1"></div>
+                <div class="col1"></div>
+                <div class="col1"></div>
+                <div class="col1"></div>
+                <div class="col1"></div>
+                <div class="col1"></div>
+            </div>
+            <div class="row2">
+                <div class="col2"></div>
+                <div class="col2"></div>
+                <div class="col2"></div>
+                <div class="col2"></div>
+                <div class="col2"></div>
+                <div class="col2"></div>
+                <div class="col2"></div>
+                <div class="col2"></div>
+                <div class="col2"></div>
+                <div class="col2"></div>
+                <div class="col2"></div>
+                <div class="col2"></div>
+            </div>
+        </div>
+        <footer>
+            <span class="foot" >This is footer</span>
+        </footer>
+    </div>
+</body>
+
+</html>
