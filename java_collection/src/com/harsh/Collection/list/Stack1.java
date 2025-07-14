@@ -1,0 +1,35 @@
+package com.harsh.Collection.list;
+
+import java.util.EmptyStackException;
+import java.util.Stack;
+
+public class Stack1 {
+	public static void main(String args[]) {
+		Stack<Integer> s = new Stack<>();
+		try {
+			s.push(12);
+			s.push(15);
+			s.push(22);
+			s.push(33);
+			s.push(49);
+			System.out.println("After insertion elements are :" + s);
+
+			System.out.println("Fetching the elements using pop method");
+			System.out.println(s.peek());		//49 - fetch top element
+			System.out.println(s.search(33));	//2
+			System.out.println(s.pop());		//49
+			System.out.println(s.pop());		//33
+			System.out.println(s.pop());
+			System.out.println(s.pop());
+			System.out.println(s.pop());
+
+			System.out.println("After deletion elements are :" + s);// []
+
+			System.out.println("Is the Stack empty ? :" + s.empty());
+		} catch (EmptyStackException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}
